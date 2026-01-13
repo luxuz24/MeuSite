@@ -1,26 +1,50 @@
 // src/components/Header.jsx
-import React from "react";
-
+import React, { useState } from "react";
+import "../App.css";
 const Header = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
+  const closeMenu = () => {
+    setMenuOpen(false);
+  };
+
   return (
     <header className="header">
       <div className="header-container">
         <div className="logo-img">
-          <img src="/lcklogo.png" alt="Minha Logo" />
+          <img src="/logo.png" alt="LCK Logo" />
         </div>
 
-        <nav className="nav-links">
-          <a href="#inicio">Início</a>
-          <a href="#projetos">Projetos</a>
-        </nav>
+        
+        <button className="menu-hamburger" onClick={toggleMenu}>
+          {menuOpen ? "✖" : "☰"}
+        </button>
 
-        <a
-          href="/curriculo.pdf"
-          download="Curriculo_Lucas_Java.pdf"
-          className="btn-cv"
-        >
-          Baixar CV 📄
-        </a>
+       
+        <nav className={`nav-links ${menuOpen ? "active" : ""}`}>
+          <a href="#inicio" onClick={closeMenu}>
+            Início
+          </a>
+          <a href="#sobre" onClick={closeMenu}>
+            Sobre
+          </a>
+          <a href="#projetos" onClick={closeMenu}>
+            Projetos
+          </a>
+
+          <a
+            href="/curriculo.pdf"
+            download="Curriculo_Lucas_Java.pdf"
+            className="btn-cv"
+            onClick={closeMenu}
+          >
+            Baixar CV 📄
+          </a>
+        </nav>
       </div>
     </header>
   );
