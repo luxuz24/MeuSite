@@ -1,8 +1,8 @@
 // src/App.jsx
 import "./App.css";
-import Hero from "./components/hero";
+import Hero from "./components/Hero";
+import Header from "./components/Header";
 import Projects from "./components/Projects";
-import Header from "./components/header";
 import Footer from "./components/Footer";
 import About from "./components/About";
 
