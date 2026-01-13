@@ -10,7 +10,6 @@
 ## 🔗 Acesse Online
 👉 **[Clique aqui para ver o projeto no ar](https://meu-site-phi-six.vercel.app/)**
 
----
 
 ## 💻 Sobre o Projeto
 
@@ -25,6 +24,8 @@ O objetivo foi criar uma interface limpa, rápida e totalmente responsiva para a
 * **Componentização:** Estrutura modular (Header, Hero, Projects, Footer) facilitando a manutenção.
 * **Performance:** Construído com Vite para carregamento instantâneo.
 
+
+
 ## 🛠 Tecnologias
 
 * **Front-end:** React.js + Vite
@@ -32,7 +33,6 @@ O objetivo foi criar uma interface limpa, rápida e totalmente responsiva para a
 * **Deploy:** Vercel CI/CD
 * **Versionamento:** Git & GitHub
 
----
 
 ## 📂 Projetos Destacados
 
