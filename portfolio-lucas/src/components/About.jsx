@@ -12,15 +12,14 @@ const About = () => {
                 Tecnologia em análise e desenvolvimento de sistemas (5º
                 semestre)
               </strong>{" "}
-              com previsão de conclusão para Dez/2026. Minha base técnica é
-              sólida em <strong>Java e Banco de Dados (PostgreSQL)</strong>, e
-              atualmente estou expandindo meus horizontes para o Front-end com
-              React.
+              com previsão de conclusão para Dez/2026. Minha base técnica é em{" "}
+              <strong>Java e Banco de Dados (PostgreSQL)</strong>, e atualmente
+              estou expandindo meus horizontes para o Front-end com React.
             </p>
             <p>
               Mais do que apenas código, meu foco é resolver problemas. Tenho
               perfil "mão na massa": gosto de entender como as coisas funcionam
-              por baixo do capô (daí meu amor pelo Back-end) e estou sempre
+              por baixo do capô (daí meu interesse pelo Back-end) e estou sempre
               disposto a aprender novas ferramentas para ajudar a equipe a
               entregar valor.
             </p>
