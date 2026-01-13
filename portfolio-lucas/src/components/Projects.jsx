@@ -7,7 +7,7 @@ const Projects = () => {
         "Aplicação Desktop com JavaFX para visualização de dados demográficos. Utiliza PostgreSQL para consultas complexas e otimizadas.",
       techs: ["Java", "JavaFX", "PostgreSQL"],
       repolink: "https://github.com/luxuz24/Analise_Dados_IBGE",
-      image: "./public/IBGE.png",
+      image: "./IBGE.png",
     },
     {
       title: "Sistema Bancário POO",
@@ -15,7 +15,7 @@ const Projects = () => {
         "Sistema completo de gestão de contas aplicando padrão MVC, encapsulamento e persistência de dados.",
       techs: ["Java", "POO", "MVC", "Design Patterns"],
       repolink: "https://github.com/luxuz24/sistema-bancario-poo",
-      image: "./public/SISTEMA.jpg",
+      image: "./SISTEMA.jpg",
     },
   ];
   return (

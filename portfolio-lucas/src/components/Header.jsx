@@ -19,12 +19,10 @@ const Header = () => {
           <img src="/logo.png" alt="LCK Logo" />
         </div>
 
-        
         <button className="menu-hamburger" onClick={toggleMenu}>
           {menuOpen ? "✖" : "☰"}
         </button>
 
-       
         <nav className={`nav-links ${menuOpen ? "active" : ""}`}>
           <a href="#inicio" onClick={closeMenu}>
             Início

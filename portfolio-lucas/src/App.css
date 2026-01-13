@@ -133,7 +133,7 @@ body {
   align-items: center;
   text-align: center;
   margin-top: 60px;
-  background-image: url("./public/img.jpg");
+  background-image: url("./img.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -494,7 +494,7 @@ body {
   .about-stats {
     flex-direction: column;
   }
-  
+
   .menu-hamburger {
     display: block;
   }
